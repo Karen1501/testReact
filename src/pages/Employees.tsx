@@ -1,10 +1,8 @@
 import { useState, useEffect } from "react";
 import Pagination from "../components/Pagination";
 import Header from "../components/Header";
-import EmployeeForm from "../components/EmployeeForm";  // ✅ Importa el formulario
-import EmployeeTable from "../components/EmployeeTable";  // ✅ Importa la tabla
-import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import EmployeeForm from "../components/EmployeeForm"; 
+import EmployeeTable from "../components/EmployeeTable";  
 import "../styles/employees.css";
 
 const API_URL = `${process.env.REACT_APP_API_BASE_URL}/employees/karen_corona`;

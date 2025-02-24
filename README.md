@@ -1,46 +1,75 @@
-# Getting Started with Create React App
+# 📌 Proyecto React con Redux y TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación web desarrollada con **React, Redux y TypeScript**, que permite gestionar empleados, realizar búsquedas y paginación, además de permitir la carga de archivos mediante una interfaz de usuario moderna.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Características principales
 
-### `npm start`
+- 📄 **Gestión de empleados** (Agregar, listar y buscar empleados).
+- 🔍 **Búsqueda en tiempo real** de empleados.
+- 📑 **Paginación** (10 empleados por página).
+- 🖼 **Subida de archivos** con vista previa.
+- 🌐 **Integración con API** para obtener empleados.
+- 🎨 **Diseño moderno y responsive con CSS**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+📦 Instalación
 
-### `npm test`
+### **1️⃣ Clonar el repositorio**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  git clone https://github.com/tu-usuario/tu-repositorio.git
+  cd tu-repositorio
+```
 
-### `npm run build`
+### **2️⃣ Instalar dependencias**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **3️⃣ Configurar variables de entorno**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Crea un archivo **`.env`** en la raíz del proyecto y agrega la URL de la API:
 
-### `npm run eject`
+```env
+REACT_APP_API_BASE_URL=https://6edeayi7ch.execute-api.us-east-1.amazonaws.com/v1/examen
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### **4️⃣ Ejecutar el servidor en modo desarrollo**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Esto iniciará el proyecto en **[http://localhost:3000](http://localhost:3000)**.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
+## 🔧 **Compilar para producción**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para generar los archivos listos para producción, ejecuta:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+  npm run build
+```
+
+Esto creará una carpeta `build/` con los archivos optimizados para producción.
+
+---
+
+## 🛠 **Tecnologías utilizadas**
+
+- **React** + **TypeScript** 🟦
+- **Redux** para gestión de estado 🔄
+- **Axios** para llamadas HTTP 🌍
+- **React Router** para navegación 🔗
+- **CSS moderno y responsivo** 🎨
+
+---
+
+## 📞 **Contacto**
+
+Si tienes alguna duda o sugerencia, ¡no dudes en escribir! ✉️
