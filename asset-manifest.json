@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Karen1501/testReact/static/css/main.fd4587af.css",
+    "main.js": "/Karen1501/testReact/static/js/main.992d2076.js",
+    "index.html": "/Karen1501/testReact/index.html",
+    "main.fd4587af.css.map": "/Karen1501/testReact/static/css/main.fd4587af.css.map",
+    "main.992d2076.js.map": "/Karen1501/testReact/static/js/main.992d2076.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd4587af.css",
+    "static/js/main.992d2076.js"
+  ]
+}
